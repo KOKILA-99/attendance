@@ -1,0 +1,31 @@
+<?php
+
+session_start();
+
+if($_SESSION){
+	
+	echo 'You are already logged in .. Logout and try again';
+	
+}
+else {
+	
+	echo '<html>
+<head>
+<title>
+WELCOME
+</title>
+</head>
+<body>
+<center><h1>LOGIN PAGE</H1>
+<form method="post" action="lo.php"><br>
+<h3>Username<input type="text" name="name" size="25"></h3>
+<h3>Password<input type="password" name ="pswd" size="25"></h3><br>
+<button type="submit">LOGIN</button>
+</center>
+</form>
+</body>
+</html>
+';
+
+}
+?>
