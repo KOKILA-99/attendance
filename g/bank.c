@@ -1,5 +1,5 @@
 #include<stdio.h>
-int amount=50000
+int amount=55000
 void main()
 {
 int choice;
